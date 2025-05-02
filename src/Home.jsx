@@ -239,7 +239,7 @@ const Home = ({username, setusername}) => {
     setIsLoading(true)
     setError(null)
     try {
-      const url = `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=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`
+      const url = `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=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`
       const response = await fetch(url)
       const data = await response.json()
       
